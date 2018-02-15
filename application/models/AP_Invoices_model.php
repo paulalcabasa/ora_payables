@@ -215,7 +215,7 @@ class AP_Invoices_model extends CI_Model {
                         total_invoice_amount, 
                         paid_amount, 
                         invoice_amount_less_wht,
-                        invoice_amount_less_wht - nvl(sum(proposed_payment_amount),0)- nvl(paid_amount,0) balance, 
+                        invoice_amount_less_wht - nvl(sum(nvl(proposed_payment_amount,paid_amount)),0) balance, 
                         wht,
                         net,
                         vat,
