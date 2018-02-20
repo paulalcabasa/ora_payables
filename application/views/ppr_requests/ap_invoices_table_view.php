@@ -21,7 +21,7 @@
 		<td data-invoice_amount="<?php echo $inv->INVOICE_AMOUNT;?>"><?php echo number_format($inv->INVOICE_AMOUNT,2,'.',',');?></td>	
 		<td><?php echo number_format($inv->VAT,2,'.',',');?></td>	
 		<td><?php echo number_format($inv->WHT,2,'.',',');?></td>	
-		<td data-invoice_balance="<?php echo $inv->BALANCE;?>"><?php echo number_format($inv->BALANCE - $inv->WHT,2,'.',',');?></td>	
+		<td data-invoice_balance="<?php echo $inv->BALANCE;?>"><?php echo number_format($inv->BALANCE,2,'.',',');?></td>	
 		<td><?php echo $inv->DUE_DATE;?></td>	
 	</tr>
 <?php
