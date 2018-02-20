@@ -1,5 +1,5 @@
 <?php
-
+ // update
 class AP_Invoices_model extends CI_Model {
 	
 	private $oracle = NULL;
