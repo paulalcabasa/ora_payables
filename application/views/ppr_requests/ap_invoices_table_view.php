@@ -12,8 +12,8 @@
 
 	<tr <?php echo $row_style;?>>
 		<td><input type="checkbox" <?php echo $cb_state;?> class="cb_invoice" value="<?php echo $inv->INVOICE_ID;?>" data-org_id="<?php echo $inv->ORG_ID;?>" data-doc_sequence_value="<?php echo $inv->DOC_SEQUENCE_VALUE;?>" data-invoice_num="<?php echo $inv->INVOICE_NUM;?>"/></td>
+		<td><?php echo $inv->INVOICE_NUM;?></td>
 		<td><?php echo $inv->DOC_SEQUENCE_VALUE;?></td>	
-		<td><?php echo $inv->INVOICE_NUM;?></td>	
 		<td><?php echo $inv->SUPPLIER_NAME;?></td>	
 		<td><?php echo $inv->INVOICE_DATE;?></td>	
 		<td><?php echo $inv->GL_DATE;?></td>	

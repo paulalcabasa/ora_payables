@@ -79,8 +79,8 @@
 								<thead>
 									<tr>
 										<th><input type="checkbox" id="cb_invoice_main"/></th>
-										<th>Voucher No</th>
 										<th>Invoice No</th>
+										<th>Voucher No</th>
 										<th>Supplier Name</th>
 										<th>Invoice Date</th>
 										<th>GL Date</th>
