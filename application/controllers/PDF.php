@@ -132,7 +132,7 @@ class PDF extends MY_Controller {
 			$pdf->SetheaderMargin(PDF_MARGIN_HEADER);
 			$pdf->SetFooterMargin(PDF_MARGIN_FOOTER);
 			// set auto page breaks
-			$pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM);
+			$pdf->SetAutoPageBreak(TRUE, PDF_MARGIN_BOTTOM - 10);
 			// set image scale factor
 			$pdf->setImageScale(PDF_IMAGE_SCALE_RATIO);
 			// set some language-dependent strings (optional)
